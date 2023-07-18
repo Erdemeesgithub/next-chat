@@ -1,5 +1,6 @@
 import { configureAbly, useChannel } from "@ably-labs/react-hooks";
 import { useState } from "react";
+import axios from "axios";
 
 configureAbly({
   key: "bkfaTw.m4eClg:QbKhJEPJ4rz4yv4vVMLjDgwzh0RFAqdnHXP2yYoaRHQ",
